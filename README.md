@@ -6,7 +6,7 @@
   </a>
 </p>
 <p align="center">
-<a href="https://github.com/henrygokugt99"><img title="Author" src="https://img.shields.io/badge/Itxxwasi-black?style=for-the-badge&logo=Github"></a> <a href="https://whatsapp.com/channel/0029VaWeUY9Jf05hxbJkVW23"><img title="Author" src="https://img.shields.io/badge/CHANNEL-black?style=for-the-badge&logo=whatsapp"></a> <a href="https://wa.me/256789810043"><img title="Author" src="https://img.shields.io/badge/CHAT US-black?style=for-the-badge&logo=whatsapp"></a>
+<a href="https://github.com/henrygokugt99"><img title="Author" src="https://img.shields.io/badge/henrygokugt99-black?style=for-the-badge&logo=Github"></a> <a href="https://whatsapp.com/channel/0029VaWeUY9Jf05hxbJkVW23"><img title="Author" src="https://img.shields.io/badge/CHANNEL-black?style=for-the-badge&logo=whatsapp"></a> <a href="https://wa.me/256789810043"><img title="Author" src="https://img.shields.io/badge/CHAT US-black?style=for-the-badge&logo=whatsapp"></a>
 <p/>
 <p align="center">
 <a href="https://github.com/henrygokugt99?tab=followers"><img title="Followers" src="https://img.shields.io/github/followers/henrygokugt99?label=Followers&style=social"></a>
