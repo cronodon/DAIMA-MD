@@ -1,7 +1,8 @@
 <p align="center">  
-  <a href="https://whatsapp.com/channel/0029VaDK8ZUDjiOhwFS1cP2j">
-    <img alt="wasi" height="300" src="https://telegra.ph/file/9f5aac1b37d65de4c725c.jpg">
-    <h1 align="center">WASI MD V2</h1>
+  <a href="https://whatsapp.com/channel/0029VaWeUY9Jf05hxbJkVW23">
+    <img alt="wasi" height="300" src="https://i.imgur.com/Fu1W1ES.jpeg">
+    ![Typing SVG](https://readme-typing-svg.demolab.com?font=Ribeye&size=50&pause=1000&color=ff0000&center=true&width=900&height=100&lines=Its%20XLICON-V2-MD;%20Multi-Device%20WhatsApp%20Bot;%20Developed%20By%20SALMAN%20AHMAD)
+<p align="center">
   </a>
 </p>
 <p align="center">
