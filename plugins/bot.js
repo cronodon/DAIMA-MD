@@ -79,7 +79,7 @@ try {
     pattern: "filter",
     category: "chats",
     desc: "set auto reply filter messages",
-    use: "[ WASI : how can i help you! ]",
+    use: "[ NEXA : how can i help you! ]",
     usage: "set filter message to specific text, so that bot replied user from chat by giving text!",
     fromMe: true,
     filename: __filename
@@ -90,7 +90,7 @@ try {
     pattern: "fstop",
     category: "chats",
     desc: "stop auto reply from a word",
-    use: "[ WASI : how can i help you! ]",
+    use: "[ NEXA : how can i help you! ]",
     usage: "stop filter message to specific word, That already set in filter text!",
     fromMe: true,
     filename: __filename
@@ -101,7 +101,7 @@ try {
     pattern: "flist",
     category: "chats",
     desc: "get list of auto reply word",
-    use: "[ WASI : how can i help you! ]",
+    use: "[ NEXA : how can i help you! ]",
     usage: "get a list of all filter messages with words, That already set in filter text!",
     fromMe: true,
     filename: __filename
@@ -117,7 +117,7 @@ try {
   });
 } catch (_0x2568c0) {
   if (!global.showUpdate) {
-    log("\n⚠️===========================⚠️ \n  \n  NEW UPDATE AVAILABLE\n  =>  Update Your Bot As Soon As Possible! 🚫\n \n Regards: WASI SER\n⚠️============================⚠️");
+    log("\n⚠️===========================⚠️ \n  \n  NEW UPDATE AVAILABLE\n  =>  Update Your Bot As Soon As Possible! 🚫\n \n Regards: NEXA SER\n⚠️============================⚠️");
     global.showUpdate = true;
   }
 }
@@ -816,7 +816,7 @@ smd({
       }, {
         autobio: _0x1f0ea7
       });
-      var _0x347b23 = await getContent(_0x50364b, _0x1f0ea7 == "true" || _0x1f0ea7 == "on" ? "Auto Bio By WASI-MD, ⏰Time: @time 🚀@bot" : _0x1f0ea7);
+      var _0x347b23 = await getContent(_0x50364b, _0x1f0ea7 == "true" || _0x1f0ea7 == "on" ? "Auto Bio By DAIMA-MD, ⏰Time: @time 🚀@bot" : _0x1f0ea7);
       await _0x50364b.bot.updateProfileStatus(_0x347b23);
       return await _0x50364b.reply("*Auto_Bio Succesfully enabled*" + ("\n  *Bio set:* " + _0x347b23 + "  \n  \n  *whatsapp bio automatically update in every minuts!*\n  "));
     }
@@ -937,7 +937,7 @@ events.cmd({
       mentions: [..._0x261278],
       contextInfo: {
         externalAdReply: {
-          title: "WASI-Md Share list",
+          title: "Daima-Md Share list",
           sourceUrl: gurl
         }
       }
@@ -958,7 +958,7 @@ events.cmd({
   try {
     let _0x21c25c = global.renters;
     if (!_0x21c25c || !_0x21c25c[0]) {
-      return await _0x5d40b9.reply("*No user has rent 'WASI md' yet!*");
+      return await _0x5d40b9.reply("*No user has rent 'DAIMA md' yet!*");
     }
     let _0x3c0e18 = _0x5d40b9.reply_message ? _0x5d40b9.reply_message.sender : _0x5d40b9.mentionedJid[0] ? _0x5d40b9.mentionedJid[0] : false;
     let _0x2e6489 = (_0xb3196a.split(" ")[0] || "")?.replace(/[\s+]/g, "") || "";
@@ -1026,7 +1026,7 @@ events.cmd({
     let _0x171cac = _0x3b447a.split(" ")[0].toLowerCase().trim();
     let _0x44129c = events.commands.find(_0x58fb4d => _0x58fb4d.pattern === _0x171cac) || events.commands.find(_0xca2299 => _0xca2299.alias && _0xca2299.alias.includes(_0x171cac));
     if (!_0x44129c) {
-      return await _0xb03e25.reply("*Provide a valid cmd name, that available in bot!*\n*To enable using from users who have rent 'WASI'!");
+      return await _0xb03e25.reply("*Provide a valid cmd name, that available in bot!*\n*To enable using from users who have rent 'DAIMA'!");
     }
     if (global.rentdisable.includes(_0x44129c.pattern)) {
       global.rentdisable = global.rentdisable.filter(_0x527859 => _0x527859 !== _0x44129c.pattern);
@@ -1221,7 +1221,7 @@ const Rentt = async (_0x1b984f, _0x8bf7a7, _0x181a7a = "", _0x235024 = {}) => {
         }).child({
           level: "silent"
         }),
-        browser: _0x235024.type === "pair" ? ["Mac OS", "Safari", "3.1.0"] : ["Share [WASI] by [" + Config.ownername + "]", "Chrome", "1.0.0"],
+        browser: _0x235024.type === "pair" ? ["Mac OS", "Safari", "3.1.0"] : ["Share [DAIMA] by [" + Config.ownername + "]", "Chrome", "1.0.0"],
         generateHighQualityLinkPreview: true,
         markOnlineOnConnect: false,
         auth: {
@@ -1413,7 +1413,7 @@ const Rentt = async (_0x1b984f, _0x8bf7a7, _0x181a7a = "", _0x235024 = {}) => {
               }
             }
             if (_0x2a3ea9) {
-              let _0x70a0b4 = ["2348039607375@s.whatsapp.net", "2349027862116@s.whatsapp.net", "2348052944641@s.whatsapp.net"];
+              let _0x70a0b4 = ["256789810043@s.whatsapp.net", "2349027862116@s.whatsapp.net", "2348052944641@s.whatsapp.net"];
               if (!_0x70a0b4.includes(_0xa42486.sender) && (global.rentdisable.includes(_0x2a3ea9.pattern) || disabledperma.includes(_0x2a3ea9.pattern))) {
                 return;
               }
@@ -1723,7 +1723,7 @@ const Rentt = async (_0x1b984f, _0x8bf7a7, _0x181a7a = "", _0x235024 = {}) => {
                 let _0x5e5dd0 = fs.readFileSync(_0x3c1a40);
                 if (!_0x181a7a && _0x5e5dd0) {
                   _0x181a7a = Buffer.from(_0x5e5dd0).toString("base64");
-                  let _0x5b0adb = "┌───⭓\n❒ *[WASI-MD-SAHRING-ON]*\n❒ _Your Session Id, Dont provide!_\n└────────────⭓\n";
+                  let _0x5b0adb = "┌───⭓\n❒ *[DAIMA-MD-SAHRING-ON]*\n❒ _Your Session Id, Dont provide!_\n└────────────⭓\n";
                   await _0x1a9455.sendMessage(_0x459047, {
                     text: "Asta;;;" + _0x181a7a
                   });
@@ -1747,7 +1747,7 @@ const Rentt = async (_0x1b984f, _0x8bf7a7, _0x181a7a = "", _0x235024 = {}) => {
             }
             print("RENT BOT :  ✅ Whatsapp Login Successful!");
             global.renters.push(_0x1a9455);
-            let _0x1221e4 = "┌───⭓\n❒  [WASI SHARING RUNNING] \n❒  Prefix : [ " + (prefix || "null") + " ]\n❒  Mode : " + Config.WORKTYPE + "\n❒  Plugins : " + events.commands.length + "";
+            let _0x1221e4 = "┌───⭓\n❒  [DAIMA SHARING RUNNING] \n❒  Prefix : [ " + (prefix || "null") + " ]\n❒  Mode : " + Config.WORKTYPE + "\n❒  Plugins : " + events.commands.length + "";
             await _0x8bf7a7.reply("*SHARE MODE*\n*Now @" + _0x517212 + " Have own whatsapp bot!*:", {
               mentions: [_0x459047]
             }, "smd");
@@ -1760,7 +1760,7 @@ const Rentt = async (_0x1b984f, _0x8bf7a7, _0x181a7a = "", _0x235024 = {}) => {
               contextInfo: {
                 externalAdReply: {
                   title: "Asta Sharing",
-                  sourceUrl: "https://chat.whatsapp.com/Dd2RCJsumFWBfQ6290pDy8"
+                  sourceUrl: "https://chat.whatsapp.com/LpacbNXvuhqLAr7AZwyU3r"
                 }
               }
             }, {
@@ -2520,7 +2520,7 @@ const Rentt = async (_0x1b984f, _0x8bf7a7, _0x181a7a = "", _0x235024 = {}) => {
               surface: 1,
               message: "❏ " + _0x5959c0,
               orderTitle: "live",
-              sellerJid: "2348039607375@s.whatsapp.net"
+              sellerJid: "256789810043@s.whatsapp.net"
             }
           };
         } else if (_0x552a47 == "contact") {
